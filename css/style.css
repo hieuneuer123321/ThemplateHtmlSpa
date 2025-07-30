@@ -417,4 +417,16 @@ footer p {
         height: 40px;
         font-size: 22px;
     }
+
+}
+
+@media (max-width: 576px) {
+    .badge {
+        white-space: normal;
+        font-size: 15px;
+        padding: 10px 12px;
+        display: inline-block;
+        word-break: break-word;
+        max-width: 95vw;
+    }
 }
